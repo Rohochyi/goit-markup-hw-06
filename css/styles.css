@@ -402,9 +402,6 @@ img {
 .customers-item {
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  transition: border-color 250ms var(--timing-function);
 }
 
 .customers-link {
