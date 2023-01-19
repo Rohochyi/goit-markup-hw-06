@@ -626,11 +626,12 @@ align-items: center; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--second-color);
   border-color: var(--brand-color);
   background: var(--brand-color);
   border-radius: 4px;
   cursor: pointer;
+  fill: var(--second-color);
 }
 
 .backdrop {
