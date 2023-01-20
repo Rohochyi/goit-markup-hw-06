@@ -268,7 +268,7 @@
         </p>
       </div>
       <div class="media">
-        <h3 class="soc-text">Social media</h3>
+        <p class="soc-text">Social media</p>
         <ul class="media-soc list">
           <li class="soc-item"><a href="" class="footer-soc-link link">
               <svg class="footer-soc-icon" width="24" height="24">
@@ -293,13 +293,15 @@
         </ul>
       </div>
       <div class="subscrible">
-        <h3 class="subscrible-text">Subscribe</h3>
-        <input type="email" name="email" id="email" class="subscribe-input" placeholder="E-mail">
-        <button type="submit" class="subscribe-btn">Subscribe<span>
-            <svg width="24" height="20">
+        <p class="subscrible-text">Subscribe</p>
+        <form class="subscribe-form">
+          <input type="email" name="email" id="email" class="subscribe-input" placeholder="E-mail">
+          <button type="submit" class="subscribe-btn">Subscribe
+            <svg width="24" height="20" class="subscribe-svg">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
-          </span></button>
+          </button>
+        </form>
       </div>
     </div>
 
@@ -338,7 +340,8 @@
             </div>
 
             <div class="form-check">
-              <input type="checkbox" name="agreement" class="checkbox-input" value="agreement-yes" id="agreement" required>
+              <input type="checkbox" name="agreement" class="checkbox-input" value="agreement-yes" id="agreement"
+                required>
               <label for="agreement" class="checkbox-lable">I accept the terms and conditions of the
                 <a href="" class="privacy">Privacy Policy</a>
               </label>
