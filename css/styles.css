@@ -639,10 +639,12 @@ align-items: center; */
   fill: var(--second-color);
 }
 
-/* .subscribe-svg {
-  display: flex;
-  align-items: center;
-} */
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--click-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: color 250ms var(--timing-function);
+}
 
 .backdrop {
   position: fixed;
@@ -795,8 +797,6 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-
-
 .form-field > .form-textarea {
   width: 360px;
   height: 120px;
@@ -874,13 +874,19 @@ textarea {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.04em;
-
   color: var(--second-color);
   background: var(--brand-color);
   border-color: var(--brand-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: var(--click-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: color 250ms var(--timing-function);
+}
+
 .form-submit {
   display: flex;
   justify-content: center;
