@@ -605,6 +605,7 @@ img {
   width: 264px;
   height: 40px;
   background-color: var(--first-color);
+  color: rgba(255, 255, 255, 0.6);
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -615,8 +616,6 @@ img {
 .subscribe-input::placeholder {
   font-size: 12px;
   line-height: 2;
-  /* display: flex;
-align-items: center; */
   letter-spacing: 0.04em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -762,7 +761,6 @@ textarea {
 }
 
 .form-order {
-  height: 584px;
   width: 408px;
   margin-left: auto;
   margin-right: auto;
@@ -775,7 +773,6 @@ textarea {
 }
 
 .form-title {
-  /* padding-top: 24px; */
   width: 360px;
   height: 24px;
   font-weight: 500;
@@ -806,7 +803,6 @@ textarea {
   width: 360px;
   height: 120px;
   padding: 8px 16px;
-  /* margin-bottom: 16px; */
   background-color: var(--modal-color);
 }
 
@@ -849,7 +845,7 @@ textarea {
 .form-check {
   /* display: flex; */
   /* align-items: center; */
-  /* margin-bottom: 24px; */
+  margin-bottom: 24px;
 }
 
 .form-input:focus,
