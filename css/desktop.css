@@ -1,0 +1,80 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  /* ---------------FEATURE--------------------- */
+
+  .feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .feature-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .feature-item {
+    gap: 24px;
+  }
+
+  .future-block {
+    display: flex;
+    background: var(--lith-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .future-icon {
+    /* align-items: center;
+  justify-content: center; */
+  }
+
+  .feature-tile {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .feature-text {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  /* ---------------WORK--------------------- */
+
+  .work {
+    display: block;
+  }
+
+  .work-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* ---------------TEAM--------------------- */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* ---------------CUSTOMERS----------------- */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    flex-wrap: nowrap;
+
+    gap: 24px;
+  }
+}

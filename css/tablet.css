@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+
+  .feature-tile {
+    text-align: left;
+  }
+
+  .team-list {
+    column-gap: 24px;
+  }
+
+  .team {
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
+  .footer-container-logo {
+    margin-right: 24px;
+  }
+}
