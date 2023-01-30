@@ -3,6 +3,50 @@
     width: 1158px;
   }
 
+  .contact {
+  display: flex;
+      flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  gap: 40px;
+  padding-top: 0;
+}
+
+.header-tel,
+.header-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+
+.hero {
+  /* background: var(--first-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; */
+  max-width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+
+
+.hero-title {
+}
+
+
+
+
   /* ---------------FEATURE--------------------- */
 
   .feature {

@@ -10,4 +10,10 @@
   .container {
     width: 428px;
   }
+
+
+
+  .header > .container {
+    display: flex;
+  }
 }
